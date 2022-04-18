@@ -1,17 +1,11 @@
 ---
 title: About Us
-description: this is test.
+description: this is the online website.
 aboutbgimage1: /images/Aboutus/01.jpg
 abouttitle: About US
 aboutcontent: ""
-content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-  non proident, sunt in culpa qui officia deserunt mollit anim id est
-  laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-  eiusmod tempor.Lorem Ipsum is simply dummy text of the printing and
-  typesetting industry. book.
+content: "99.8% applications have at least one vulnerability. we can help you
+  find out how many vulnerabilities your application has, as well as help you
+  fix them before they hurt your business. this is the business website! "
 draft: false
 ---
