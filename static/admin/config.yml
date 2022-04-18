@@ -12,3 +12,5 @@ collections:
       - { label: "Description", name: "description", widget: "text" }
       - { label: "About bg image1", name: "aboutbgimage1", widget: "image" }
       - { label: "About title", name: "abouttitle", widget: "string" }
+      - { label: "Content", name: "content", widget: "text" }
+      - { label: "Draft", name: "draft", widget: "boolean" }
