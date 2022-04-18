@@ -1,0 +1,86 @@
+
+############################ About Us ##########################
+aboutus:
+  enable : true
+  image1 : "images/home/about-1.jpg"
+  image2 : "images/home/about-2.jpg"
+  title : "Welcome to "
+  subtitle: "Patel Services Pty. Ltd."
+  subcontent: "Patel Services Pty Ltd (PSP) has begun its journey from 2013 with the logistic industry.
+                            PSP is fully owned and operated business by Australian family in Brisbane, Queensland. 
+                            As PSP people has hips of knowledge and skill of identifying better quality of Spices and 
+                            herbs and many years of experience from the spices market yard; in 2018, PSP has decided to 
+                            start another service by offering the best and fresh quality of Herbs and Spices to Australian people, 
+                            as a result of it, the importing and exporting journey begun from 2018. <br><br>
+                            
+                PSP is a family run, Australian owned and operated business in Brisbane, Queensland since 2013."
+  label : "Read more"
+  link : "aboutus"
+
+############################ products ##########################
+products:
+  enable : true
+  products_item:
+    ################# products item loop
+    - productcategoryimage : "images/product/home/psyllium-product.jpg"
+      link: "psyllium-products"
+      totalproductcategory: "2 Psyllium Products"
+      productcategorytitle: "Psyllium Products"
+      productcategorydescription: "Psyllium Products Description...Psyllium Products Description..."
+
+    ################# products item loop
+    - productcategoryimage : "images/product/home/oilseed.jpg"
+      link: "oil-seeds"
+      totalproductcategory: "4 Oil seeds"
+      productcategorytitle: "Oil seeds"
+      productcategorydescription: "Oil seeds Description...Oil seeds Description..."
+
+    ################# products item loop
+    - productcategoryimage : "images/product/home/spices-and-herbs.jpg"
+      link: "spices-and-herbs"
+      totalproductcategory: "11 Spices And Herbs"
+      productcategorytitle: "Spices And Herbs"
+      productcategorydescription: "Spices And Herbs Description...Spices And Herbs Description..."
+
+############################### testimonial ####################################
+testimonial:
+  enable : true
+  title: "What our customers say"
+  # bg_image : "images/parallax/parallax2.jpg"
+  testimonial_item:
+    # testimonial item loop
+    - name : "Mark Tailor"
+      image : "images/home/testi-1.jpg"
+      designation : "CTO"
+      content : " Excellent vendor, great communication, very punctual delivery, highly recommended"
+      
+    # testimonial item loop
+    - name : "Jocelyn"
+      image : "images/home/testi-1.jpg"
+      designation : "CTO"
+      content : " Great moving service at very competitive prices. Highly recommended"
+      
+    # testimonial item loop
+    - name : "Mary Liberman"
+      image : "images/home/testi-1.jpg"
+      designation : "CTO"
+      content : " Pleasure to do business with Patel Services as they offer wide range of products with the most reasonable prices and free delivery service in Brisbane"
+
+    # testimonial item loop
+    - name : "Arpit Shah"
+      image : "images/home/testi-1.jpg"
+      designation : "CTO"
+      content : "Best interstate and local moving service in Australia. Patel movers help us with our house moving. They are very friendly and helpful people. their prices are also reasonable as compare to Australian market. I will definitely recommend to my friends and relatives"
+
+    # testimonial item loop
+    - name : "John Smith"
+      image : "images/home/testi-1.jpg"
+      designation : "CTO"
+      content : "Amazing Quality! Fantastic range and cater from small to large quantity products, Prices are really competitive and services is A+"
+    
+    # testimonial item loop
+    - name : "James Vilton"
+      image : "images/home/testi-1.jpg"
+      designation : "CTO"
+      content : "Products are great and available in variety of qualities as per customer needs"
+    

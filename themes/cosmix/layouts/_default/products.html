@@ -1,0 +1,10 @@
+<a href="{{ .Permalink }}" class="ct-category">
+    <div class="ct-category-img">
+        <img src="{{ .Params.image | relURL }}" alt="category">
+        {{/*  <span>17 Spicess</span>  */}}
+    </div>
+    <div class="ct-category-info">
+        <h5>{{ .Params.productTitle }}</h5>
+        <p>{{ .Params.productdescription }}</p>
+    </div>
+</a>

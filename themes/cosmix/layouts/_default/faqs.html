@@ -1,0 +1,12 @@
+<div class="accordion" id="accordionExample">
+    <div class="card">
+        <div class="card-header" data-toggle="collapse" data-target="#{{ .Params.faqquestionid }}" aria-expanded="false">     
+            <span class="title mb-0">{{ .Params.faqquestion }} </span>
+        </div>
+        <div id="{{ .Params.faqquestionid }}" class="collapse {{ .Params.faqopen }}" data-parent="#accordionExample">
+            <div class="card-body text-justify">
+                {{ .Params.faqanswer }}
+            </div>
+        </div>
+    </div>
+</div>

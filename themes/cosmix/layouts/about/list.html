@@ -1,0 +1,24 @@
+{{ define "main" }}
+<!--About-Section-Start-->
+<section id="aboutus">
+    <div class="container">
+      <div class="col-md-9 col-md-offset-2">
+        <div class="heading text-center">
+          <h2>{{ .Params.abouttitle }}</h2>
+          <div class="line"></div>
+          <p>{{ .Params.aboutcontent | markdownify }}</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 ab-sec">
+          <div class="col-md-6">
+            <h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span>W</span>e Are Creative And Awesome</h3>
+            <p>{{ .Params.content | markdownify }}</p>
+          </div>
+          <div class="col-md-6 ab-sec-img wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"><img src="{{ .Params.aboutbgimage1 | relURL }}" alt="about"> </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--About-Sec-2-Start-->
+{{ end }}

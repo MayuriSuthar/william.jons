@@ -1,0 +1,24 @@
+<div class="recipe">
+  <div class="recipe-thumbnail">
+      <a href="{{ .Permalink }}">
+          <img src="{{ .Params.image | relURL }}" alt="{{ .Params.blogtitle }}">
+      </a>
+  </div>
+  <div class="recipe-body">
+      <h5 class="recipe-title"> <a href="{{ .Permalink }}">{{ .Params.blogtitle }}</a> </h5>
+      <p class="recipe-text">{{ .Params.blogdescription }}</p>
+      <div class="recipe-meta">
+          <div class="recipe-difficulty">
+              {{/*  <div class="recipe-difficulty-inner">
+                  <span class="active"></span>
+                  <span class="active"></span>
+                  <span></span>
+              </div>
+              <span>Home Cook</span>  */}}
+          </div>
+          <div class="recipe-steps text-right">
+              <span class="text-right"><i class="fas fa-calendar-alt"></i> {{.Date.Format "January 2, 2006"}}</span>
+          </div>
+      </div>
+  </div>
+</div>

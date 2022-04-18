@@ -1,0 +1,60 @@
+<footer id="footer">
+	<div class="bg-sec">
+	  <div class="container">
+		<h2>{{ .Site.Params.footercontent }}</h2>
+		{{/*  <div class="col-md-6 footer-widget">
+			<h5 class="">Quick Links</h5>
+			<ul class="nav">
+				<li> <a href="/">Home</a> </li>
+				<li> <a href="/about">About Us</a> </li>
+				<li> <a href="/service">Service</a> </li>
+				<li> <a href="/features">Features</a> </li>
+				<li> <a href="/pricing">Pricing</a> </li>
+				<li> <a href="/team">Team</a> </li>
+				<li> <a href="/blog">Blog</a> </li>
+			</ul>
+		</div>  */}}
+		{{/*  <div class="text-center">
+      <div class="col-md-6 col-sm-6 contact-sec-1">
+        <h4>CONTACT INFO</h4>
+        <ul class="contact-form">
+          <li><i class="fa fa-map-marker"></i>
+            <h6>{{ .Site.Params.address }} </h6>
+          </li>
+          <li><i class="fa fa-envelope"></i>
+			<h6><span class="hfcallemail"><a href="mailto:{{ .Site.Params.email1 }}" class="d-inline-block">{{ .Site.Params.email1 }}</a></span></h6>
+          </li>
+          <li><i class="fa fa-phone"></i>
+            <h6><span class="hfcallemail"><a href="tel:{{ .Site.Params.phone | markdownify }}" class="d-inline-block">{{ .Site.Params.phone | markdownify }}</a></span> </h6>
+          </li>
+          <li><i class="fa fa-wechat"></i>
+            <h6><span class="hfcallemail"><a class="d-inline-block">{{ .Site.Params.website | markdownify }}</a></span></h6>
+          </li>
+        </ul>
+      </div>
+	  </div>
+	</div>  */}}
+  </footer>
+  <footer id="footer-down">
+	<h2>{{ .Site.Params.footertitel }}</h2>
+	<ul class="social-icon">
+	  <li class="facebook hvr-pulse"><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+	  <li class="twitter hvr-pulse"><a href="#"><i class="fa fa-twitter"></i></a></li>
+	  <li class="linkedin hvr-pulse"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+	  <li class="google-plus hvr-pulse"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+	  <li class="youtube hvr-pulse"><a href="#"><i class="fa fa-youtube"></i></a></li>
+	  <li class="instagram hvr-pulse"><a href="#"><i class="fa fa-instagram"></i></a></li>
+	  <li class="behance hvr-pulse"><a href="#"><i class="fa fa-behance"></i></a></li>
+	</ul>
+	<div class="col-lg-6 text-center text-lg-left mb-3 mb-lg-0">
+	<p>{{ .Site.Params.copyright | markdownify }}</p>
+	</div>
+	<div class="col-lg-6 footer-widget pb-0 text-center text-lg-right">
+	<p>{{ .Site.Params.designdevelop | markdownify }}</p>
+</div>
+  </footer>
+  
+{{ "<!-- JS Plugins -->" | safeHTML }}
+{{ range .Site.Params.plugins.js}}
+<script src="{{ .link | absURL }}"></script>
+{{ end }}

@@ -1,0 +1,12 @@
+
+
+<div class="solucatagory_box">
+  <a href="{{ .Permalink }}">
+      <div class="solu_logo">
+          <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+          <h3>{{ .Title }}</h3>
+      </div>
+      <p>{{ .Params.maindescription }}</p>
+      <span>Read more <i class="fas fa-chevron-right"></i></span>
+  </a>
+</div>
